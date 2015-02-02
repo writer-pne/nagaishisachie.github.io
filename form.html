@@ -74,21 +74,20 @@
 
   <body style="padding-top:50px;">
 
+<form method="post" action="https://writer.pne.jp/opAuthMailAddress/requestRegisterURL">
+  <input name="request_register_url[course_id]" value="1" type="hidden">
+  <label>
+    メールアドレス: <input name="request_register_url[mail_address]" type="text">
+  </label>
+  <input value="送信" type="submit">
+</form>
 
+<!--
 <br><br><br>
 <div class="partsHeading"><h3>新規登録</h3></div>
-
-
-
 <form action="/opAuthMailAddress/requestRegisterURL" method="post">
-
-
 <div class="block">
 メールアドレスを入力してください。入力されたメールアドレス宛に PNE.club の招待状が送信されます。</div>
-
-
-
-
 <strong>*</strong>は必須項目です。
 <table>
 
@@ -108,6 +107,7 @@
   <td><input type="checkbox" name="request_register_url[agree_terms]" value="1" class="input_checkbox" id="request_register_url_agree_terms" /></td>
 </tr>
 </table>
+-->
 
 <div class="operation">
 <ul class="moreInfo button">
